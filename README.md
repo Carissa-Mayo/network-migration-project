@@ -31,4 +31,4 @@ This analysis is based on the following publications: [Kot et al., 2021](https:/
 
 |  |  |
 |:--:|:--:|
-| <img src="images/mapPlotWithColors.png" alt="Colors map" width="400"> | <img src="images/mapPlotWithArrowsWeight.png" alt="Arrows/weights map" width="400"> |
+| <img src="figures/mapPlotWithColors.png" alt="Colors map" width="400"> | <img src="figures/mapPlotWithArrowsWeight.png" alt="Arrows/weights map" width="400"> |
