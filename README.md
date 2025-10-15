@@ -29,7 +29,6 @@ This analysis is based on the following publications: [Kot et al., 2021](https:/
   + Bonaire/Kralendijk (Node 1) is the most connected node.
   + Node 4 (Cayos Miskitos, E. Nicaragua) appears central/important, consistent with a reserve hotspot for turtles.
 
-<p align="center">
-  <img src="images/mapPlotWithColors.png" alt="Colors map" width="48%">
-  <img src="images/mapPlotWithArrowsWeight.png" alt="Arrows/weights map" width="48%">
-</p>
+|  |  |
+|:--:|:--:|
+| <img src="images/mapPlotWithColors.png" alt="Colors map" width="400"> | <img src="images/mapPlotWithArrowsWeight.png" alt="Arrows/weights map" width="400"> |
