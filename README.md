@@ -10,11 +10,15 @@ This analysis is based on the following publications: [Kot et al., 2021](https:/
 * Region bounds: lon ∈ (-90, -60), lat ∈ (5, 25).
 * Daily normalization: per animal per day → mean(lat), mean(lon) for that date.
 
+![unfiltered data](figures/UnfilteredData.png)
+
 ## Partitioning (node construction)
 **Goal:** turn continuous points into discrete habitat nodes.
 * R script uses NbClust to evaluate clusterings with Euclidean distance, Ward.D2 linkage, Duda index, with k ∈ [2, 15].
 * Writes a single column CSV: Data_tidy/partition.csv with integer labels (1..K).
 * In MATLAB post-step, each record is assigned a partition and centroids are plotted (mean lat/lon per partition).
+
+![nodes](figures/Partition.png)
 
 ## Results
 * Network size: nodes n=9, edges m=31.
@@ -24,3 +28,8 @@ This analysis is based on the following publications: [Kot et al., 2021](https:/
   + Isla de Margarita (Node 8) is the most confined node.
   + Bonaire/Kralendijk (Node 1) is the most connected node.
   + Node 4 (Cayos Miskitos, E. Nicaragua) appears central/important, consistent with a reserve hotspot for turtles.
+
+<p align="center">
+  <img src="images/mapPlotWithColors.png" alt="Colors map" width="48%">
+  <img src="images/mapPlotWithArrowsWeight.png" alt="Arrows/weights map" width="48%">
+</p>
